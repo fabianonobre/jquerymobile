@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>APP Aluno</title>
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+		<link rel="stylesheet" href="css/estilo.css" />
+
+
+	</head>
+	    <body>
+
+		<!-- começo da primeira pagina -->
+		<div data-role="page" id="inicio" data-theme="a">
+			<!-- <div data-role="header">
+				<h1 >App do Aluno</h1>
+			</div> /header -->
+
+
+			<div data-role="header">
+				<h1>App do Aluno</h1>
+
+					<div data-role="navbar">
+							<ul>
+									<li><a href="#inicio">Home</a></li>
+									<li><a href="#perfil" class="ui-btn-active ui-state-persist">Perfil</a></li>
+									<li><a href="#historico">Histórico</a></li>
+						 </ul>
+				 </div>
+		</div>
+
+
+
+			<div role="content" class="ui-content">
+				<p>Este aplicativo ira direcionarar o aluno ao aprendizado de aplicativos móveis </p>
+				<p>Ao clicar neste link você verá os dados do aluno
+					<a href="#perfil" data-role="button" data-transition="fade">Fade</a>
+					<a href="#perfil" data-role="button" data-transition="pop">Pop</a>
+					<a href="#perfil" data-role="button" data-transition="flip">Flip</a>
+					<a href="#perfil" data-role="button" data-transition="turn">Turn</a>
+					<a href="#perfil" data-role="button" data-transition="flow" data-direction="reverse">Flow</a>
+					<a href="#perfil" data-role="button" data-transition="slidefade">Slidefade</a>
+					<a href="#perfil" data-role="button" data-transition="slide">Slide</a>
+					<a href="#perfil" data-role="button" data-transition="slideup">Slideup</a>
+					<a href="#perfil" data-role="button" data-transition="slidedown">Slidedown</a>
+					<a href="#perfil" data-role="button" data-transition="none">None</a>
+
+
+
+				</p>
+			</div><!-- /content -->
+
+			<div id="rodape" data-role="footer" data-position="fixed">
+				<h4>Rodapé</h4>
+			</div><!-- /footer -->
+
+		</div><!-- /fim da primeira pagina -->
+
+
+		<!-- começo da segunda pagina -->
+		<div data-role="page" id="historico">
+			<div data-role="header" data-add-back-btn="true" data-back-btn-text="Voltar">
+				<h1>Histórico</h1>
+			</div><!-- /header -->
+
+			<div role="main" class="ui-content">
+				<p>Aluno Fabiano Nobre mendes</p>
+				<p>UC11: nota 10</p>
+				<p>UC08: nota 7</p>
+				<p>UC05: nota 8</p>
+				<p>UC04: nota 3</p>
+				<p><a href="#inicio"data-role="button">voltar</a></p>
+			</div><!-- /content -->
+
+			<div data-role="footer" data-position="fixed">
+				<h4>Rodapé</h4>
+			</div><!-- /footer -->
+		</div><!-- /fim da segunda pagina -->
+
+
+
+		<!-- começo da terceira pagina -->
+		<div data-role="page" id="perfil">
+			<div data-role="header">
+				<h1>App do Aluno</h1>
+
+					<div data-role="navbar">
+							<ul>
+									<li><a href="#inicio">Home</a></li>
+									<li><a href="#perfil" class="ui-btn-active ui-state-persist">Perfil</a></li>
+									<li><a href="#historico">Histórico</a></li>
+
+						 </ul>
+				 </div>
+		</div>
+
+			<div role="main" class="ui-content">
+				<p>Meu nome é fabiano </p>
+				<p>Sou aluno do curso Técnico em Informática no SENAC PELOTAS</p>
+				<p><a href="#inicio"data-role="button">voltar</a></p>
+			</div><!-- /content -->
+
+			<div data-role="footer" data-position="fixed">
+				<h4>Rodapé</h4>
+			</div><!-- /footer -->
+		</div><!-- /fim da terceira pagina -->
+
+
+
+
+	</body>
+</html>
